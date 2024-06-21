@@ -40,6 +40,7 @@ body{
 }
 .heading{
     font-weight: bold;
+    border-radius: 4px;
     background-color: #F4D04E;
     display: flex;
     width: 82px;
