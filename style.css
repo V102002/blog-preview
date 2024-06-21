@@ -2,10 +2,16 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 body{
     background-color: #F4D04E;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column // To make sure the attribution goes under the main card
 }
 
 .Blog-container{
-    margin-top: 180px;
     border-radius: 10px;
     padding: 24px;
     background-color: white;
@@ -15,7 +21,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 522px;
-    margin-left: 650px;
     box-shadow: 10px 10px 0px 5px black
 }
 .Blog{
