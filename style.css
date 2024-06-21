@@ -4,7 +4,6 @@
 body{
     background-color: #F4D04E;
     position: relative;
-    left:20px;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -24,7 +23,6 @@ body{
     align-items: center;
     height: 522px;
     box-shadow: 10px 10px 0px 5px black
-    border: 2px solid black;
 }
 .Blog{
     width: 100%;
